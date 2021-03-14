@@ -3,17 +3,17 @@ const Wand = require('../lib/wand');
 
 describe('Wand', () => {
 
-  it.skip('should be a function', () => {
+  it('should be a function', () => {
     assert.isFunction(Wand);
   });
 
-  it.skip('should have a type', () => {
+  it('should have a type', () => {
     const wand = new Wand('Elm');
 
     assert.equal(wand.type, 'Elm');
   });
 
-  it.skip('should have a size', () => {
+  it('should have a size', () => {
     const wand = new Wand('Elm', 12);
 
     assert.equal(wand.size, 12);
