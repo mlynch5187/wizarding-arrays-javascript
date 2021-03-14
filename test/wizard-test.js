@@ -13,7 +13,7 @@ describe('Wizard', () => {
     assert.equal(wonwon.name, 'Ron');
   });
 
-  it.skip('should have a pet', () => {
+  it('should have a pet', () => {
     const wizard = new Wizard({name: 'Hermione'});
     const pet = new Pet('Crookshanks', 'cat');
 
